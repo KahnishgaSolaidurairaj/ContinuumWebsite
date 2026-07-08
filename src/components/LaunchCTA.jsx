@@ -1,5 +1,5 @@
 /**
- * Launch call-to-action section with July 19 release date.
+ * Launch call-to-action section with release announcement.
  *
  * Returns: The launch CTA section element.
  */
@@ -8,7 +8,7 @@ function LaunchCTA() {
     <section id="launch" className="launch section section--gradient">
       <div className="section__inner launch__inner">
         <p className="eyebrow eyebrow--light">Press Release</p>
-        <h2>Launching July 19, 2026</h2>
+        <h2>Launching soon</h2>
         <p className="launch__text">
           A motivating, playful, visual app that supports speech therapy
           practice — helping children find their voice and giving caretakers the

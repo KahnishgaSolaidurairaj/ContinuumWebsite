@@ -8,8 +8,9 @@ import IpadPlaceholder from './IpadPlaceholder'
 function Hero() {
   return (
     <section id="hero" className="hero section">
+      <div className="hero__inner">
       <div className="hero__content">
-        <p className="eyebrow">Launching July 19, 2026</p>
+        <p className="eyebrow">Launching soon</p>
         <h1>Continuum</h1>
         <p className="hero__tagline">Find your voice through fun!</p>
         <p className="hero__description">
@@ -41,6 +42,7 @@ function Hero() {
           description="Daily motivation & practice goals"
           variant="lavender"
         />
+      </div>
       </div>
     </section>
   )

@@ -34,7 +34,7 @@ function Navbar() {
       </nav>
 
       <a href="#launch" className="navbar__cta">
-        July 19 Launch
+        Launching soon
       </a>
     </header>
   )
