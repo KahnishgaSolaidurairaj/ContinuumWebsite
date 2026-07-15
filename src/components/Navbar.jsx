@@ -1,5 +1,8 @@
+import AppIcon from './AppIcon'
+
 const NAV_LINKS = [
   { label: 'The Problem', href: '#problem' },
+  { label: 'Our Mission', href: '#mission' },
   { label: 'Who We Help', href: '#who-we-help' },
   { label: 'Features', href: '#features' },
   { label: 'Activities', href: '#activities' },
@@ -15,9 +18,7 @@ function Navbar() {
   return (
     <header className="navbar">
       <a href="#hero" className="navbar__brand">
-        <span className="navbar__logo" aria-hidden="true">
-          C
-        </span>
+        <AppIcon className="navbar__logo" size={36} />
         Continuum
       </a>
 

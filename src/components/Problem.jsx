@@ -12,7 +12,7 @@ function Problem() {
           <h2>Speech therapy often happens only every few weeks.</h2>
           <p>
             Children with dysarthria need consistent, daily practice between
-            clinical sessions — but most families lack the tools, feedback, and
+            clinical sessions yet most families lack the tools, feedback, and
             motivation to keep going at home.
           </p>
           <p>

@@ -1,3 +1,5 @@
+import AppIcon from './AppIcon'
+
 const TEAM = [
   'Kahnishga Solaidurairaj',
   'Nyleah Jones',
@@ -14,9 +16,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer__inner">
         <div className="footer__brand">
-          <span className="navbar__logo" aria-hidden="true">
-            C
-          </span>
+          <AppIcon className="navbar__logo" size={36} />
           <span>Continuum</span>
         </div>
 
@@ -24,6 +24,7 @@ function Footer() {
 
         <nav className="footer__nav" aria-label="Footer navigation">
           <a href="#problem">The Problem</a>
+          <a href="#mission">Our Mission</a>
           <a href="#features">Features</a>
           <a href="#activities">Activities</a>
           <a href="#app-preview">App Preview</a>

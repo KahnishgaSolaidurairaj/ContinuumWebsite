@@ -10,9 +10,9 @@ function LaunchCTA() {
         <p className="eyebrow eyebrow--light">Press Release</p>
         <h2>Launching soon</h2>
         <p className="launch__text">
-          A motivating, playful, visual app that supports speech therapy
-          practice — helping children find their voice and giving caretakers the
-          data to share with clinicians.
+          Continuum relieves stressed parents by continuing speech therapy at
+          home with fun, organized, trackable practice that helps children
+          find their voice and gives caretakers data to share with clinicians.
         </p>
 
         <div className="launch__stats">

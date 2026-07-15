@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Problem from './components/Problem'
+import Mission from './components/Mission'
 import WhoWeHelp from './components/WhoWeHelp'
 import Features from './components/Features'
 import Activities from './components/Activities'
@@ -17,6 +18,7 @@ function App() {
       <main>
         <Hero />
         <Problem />
+        <Mission />
         <WhoWeHelp />
         <Features />
         <Activities />

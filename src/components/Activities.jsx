@@ -18,8 +18,6 @@ const ACTIVITIES = [
   {
     name: 'Watch',
     tagline: 'See how someone pronounces it',
-    description:
-      'Watch short videos demonstrating the facial movements needed for each phoneme.',
     icon: '▶️',
     color: 'lime',
   },
@@ -27,11 +25,13 @@ const ACTIVITIES = [
     name: 'Test',
     tagline: 'Try it yourself',
     description:
-      'Practice pronunciation and receive ML-powered scoring with physical feedback via ARKit face tracking.',
+      'Practice pronunciation and receive ML-powered scoring with feedback on how to improve.',
     icon: '🎤',
     color: 'navy',
   },
 ]
+
+const VANESSA_CHANNEL_URL = 'https://www.youtube.com/@SpeakEnglishWithVanessa'
 
 /**
  * Practice activities section describing the four training game modes.
@@ -47,9 +47,9 @@ function Activities() {
           <h2>Training games that do the job</h2>
           <p className="section__subtitle">
             Kids first see and hear phonemes, watch facial movement videos, then
-            practice themselves. Feedback combines ARKit Face Tracking and CoreML
-            audio modeling — scoring pronunciation and advising on physical
-            adjustments like &ldquo;raise your tongue higher.&rdquo;
+            practice themselves. Feedback uses CoreML audio modeling — scoring
+            pronunciation and advising on adjustments like &ldquo;raise your
+            tongue higher.&rdquo;
           </p>
         </div>
 
@@ -66,15 +66,29 @@ function Activities() {
                 <h3>{activity.name}</h3>
                 <p className="activity-card__tagline">{activity.tagline}</p>
               </div>
-              <p className="activity-card__desc">{activity.description}</p>
+              <p className="activity-card__desc">
+                {activity.name === 'Watch' ? (
+                  <>
+                    Watch short videos demonstrating the facial movements needed
+                    for each phoneme. Video lessons are from the{' '}
+                    <a
+                      href={VANESSA_CHANNEL_URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Speak English With Vanessa
+                    </a>{' '}
+                    YouTube channel, used with her permission.
+                  </>
+                ) : (
+                  activity.description
+                )}
+              </p>
             </article>
           ))}
         </div>
 
         <div className="activities__tech">
-          <div className="tech-badge">
-            <span>ARKit Face Tracking</span>
-          </div>
           <div className="tech-badge">
             <span>CoreML Audio Modeling</span>
           </div>

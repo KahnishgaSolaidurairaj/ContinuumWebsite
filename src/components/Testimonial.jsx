@@ -9,7 +9,7 @@ function Testimonial() {
       <div className="section__inner testimonial__inner">
         <blockquote className="testimonial__quote">
           <p>
-            &ldquo;We went through a lot of physical therapy back then, an app
+            &ldquo;We went through a lot of speech therapy back then, an app
             like this sounds incredible.&rdquo;
           </p>
           <footer>
