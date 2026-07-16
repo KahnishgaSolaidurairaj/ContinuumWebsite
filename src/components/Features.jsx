@@ -21,11 +21,11 @@ const APP_FEATURES = [
     description: 'A central hub for progress tracking and insights.',
     icon: '📊',
   },
-  {
-    title: 'PDF / Data Sharing',
-    description: 'Share progress reports with clinicians and caretakers.',
-    icon: '📤',
-  },
+  // {
+  //   title: 'PDF / Data Sharing',
+  //   description: 'Share progress reports with clinicians and caretakers.',
+  //   icon: '📤',
+  // },
 ]
 
 /**
