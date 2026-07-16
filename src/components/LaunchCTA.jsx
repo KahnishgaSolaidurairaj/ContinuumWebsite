@@ -21,8 +21,8 @@ function LaunchCTA() {
             <span className="launch__stat-label">Practice modes</span>
           </div>
           <div className="launch__stat">
-            <span className="launch__stat-value">ML</span>
-            <span className="launch__stat-label">Powered feedback</span>
+            <span className="launch__stat-value">Daily</span>
+            <span className="launch__stat-label">Progress tracking</span>
           </div>
           <div className="launch__stat">
             <span className="launch__stat-value">6–10</span>

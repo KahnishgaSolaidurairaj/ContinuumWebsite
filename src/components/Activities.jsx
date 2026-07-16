@@ -25,7 +25,7 @@ const ACTIVITIES = [
     name: 'Test',
     tagline: 'Try it yourself',
     description:
-      'Practice pronunciation and receive ML-powered scoring with feedback on how to improve.',
+      'Practice pronunciation and receive feedback on how to improve.',
     icon: '🎤',
     color: 'navy',
   },
@@ -47,9 +47,7 @@ function Activities() {
           <h2>Training games that do the job</h2>
           <p className="section__subtitle">
             Kids first see and hear phonemes, watch facial movement videos, then
-            practice themselves. Feedback uses CoreML audio modeling scoring
-            pronunciation and advising on adjustments like &ldquo;raise your
-            tongue higher.&rdquo;
+            practice themselves with scoring and tips to help them improve.
           </p>
         </div>
 
@@ -89,9 +87,6 @@ function Activities() {
         </div>
 
         <div className="activities__tech">
-          <div className="tech-badge">
-            <span>CoreML Audio Modeling</span>
-          </div>
           <div className="tech-badge">
             <span>Real-time Feedback</span>
           </div>
