@@ -47,7 +47,7 @@ function Activities() {
           <h2>Training games that do the job</h2>
           <p className="section__subtitle">
             Kids first see and hear phonemes, watch facial movement videos, then
-            practice themselves. Feedback uses CoreML audio modeling — scoring
+            practice themselves. Feedback uses CoreML audio modeling scoring
             pronunciation and advising on adjustments like &ldquo;raise your
             tongue higher.&rdquo;
           </p>
@@ -69,8 +69,8 @@ function Activities() {
               <p className="activity-card__desc">
                 {activity.name === 'Watch' ? (
                   <>
-                    Watch short videos demonstrating the facial movements needed
-                    for each phoneme. Video lessons are from the{' '}
+                    Watch short videos demonstrating the facial movements
+                    needed for each phoneme. Video lessons are from the{' '}
                     <a
                       href={VANESSA_CHANNEL_URL}
                       target="_blank"

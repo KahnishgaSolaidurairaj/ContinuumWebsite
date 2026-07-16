@@ -1,3 +1,5 @@
+import AppScreenshot from './AppScreenshot'
+
 const APP_FEATURES = [
   {
     title: 'Weekly Streak',
@@ -39,7 +41,7 @@ function Features() {
           <p className="eyebrow">Key Features</p>
           <h2>Everything families need between therapy sessions</h2>
           <p className="section__subtitle">
-            From daily motivation to clinician-ready reports — Continuum keeps
+            From daily motivation to clinician-ready reports, Continuum keeps
             practice engaging and progress visible.
           </p>
         </div>
@@ -54,6 +56,23 @@ function Features() {
               <p>{feature.description}</p>
             </article>
           ))}
+        </div>
+
+        <div className="features__showcase">
+          <AppScreenshot
+            src="/screenshots/warm-up.png"
+            alt="Warm up modal with breathing exercise before practice"
+            label="Warm ups & motivation"
+            description="Start each session with calming exercises and encouragement"
+            variant="framed"
+          />
+          <AppScreenshot
+            src="/screenshots/dashboard.png"
+            alt="Dashboard with mood tracking, speech accuracy graph, and analysis"
+            label="Caretaker dashboard"
+            description="Moods, accuracy trends, and strengths at a glance"
+            variant="framed"
+          />
         </div>
       </div>
     </section>

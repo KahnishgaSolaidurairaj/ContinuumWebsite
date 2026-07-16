@@ -36,7 +36,7 @@ function WhoWeHelp() {
           <h2>Built for families on the speech therapy journey</h2>
           <p className="section__subtitle">
             Continuum empowers caretakers and parents supporting children with
-            dysarthria — with listen, trace, and practice games alongside
+            dysarthria, with listen, trace, and practice games alongside
             progress tracking so kids stay motivated and families stay informed.
           </p>
         </div>
