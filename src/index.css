@@ -1,25 +1,51 @@
 :root {
-  --text: #4a5568;
-  --text-h: #1a1c2e;
+  --text: #5c5670;
+  --text-h: #2d2640;
   --bg: #ffffff;
-  --app-mint: #a8dcab;
+
+  /* App theme — pink, green, purple, and light blue from screenshots */
+  --theme-pink: #f5c4d8;
+  --theme-pink-soft: #fcecf2;
+  --theme-pink-deep: #e8a8c0;
+
+  --theme-green: #c5e8cc;
+  --theme-green-soft: #eaf6ed;
+  --theme-green-deep: #5a9e72;
+
+  --theme-purple: #d4c8ef;
+  --theme-purple-soft: #f0ebfa;
+  --theme-purple-deep: #8a79b8;
+  --theme-purple-dark: #6f5fa0;
+
+  --theme-blue: #c5dff5;
+  --theme-blue-soft: #e8f2fb;
+  --theme-blue-deep: #6ba3d6;
+
+  --app-purple: var(--theme-purple-deep);
+  --app-purple-dark: var(--theme-purple-dark);
+  --app-purple-light: var(--theme-purple);
+  --app-green: var(--theme-green);
+  --app-green-dark: var(--theme-green-deep);
+  --app-card: var(--theme-purple-soft);
+  --app-bg-soft: #faf8ff;
+  --app-mint: var(--theme-green);
   --app-yellow: #ffffc5;
-  --app-lavender: #c3b6ff;
-  --cream: var(--app-yellow);
-  --lavender: var(--app-lavender);
-  --lavender-deep: #b0a3f5;
-  --sky: #e8f4fc;
-  --sky-deep: #b8d4e8;
-  --lime: var(--app-mint);
-  --lime-deep: #8ec991;
-  --accent: #4a90e2;
-  --accent-dark: #2d6cb5;
-  --purple: var(--app-lavender);
-  --navy: #1a1c2e;
-  --border: #e2e0e8;
-  --card-bg: rgba(255, 255, 255, 0.85);
-  --shadow: rgba(26, 28, 46, 0.08) 0 8px 30px;
-  --shadow-lg: rgba(26, 28, 46, 0.12) 0 20px 50px;
+  --app-lavender: var(--theme-purple);
+  --cream: var(--theme-pink-soft);
+  --lavender: var(--theme-purple);
+  --lavender-deep: var(--theme-purple-deep);
+  --sky: var(--theme-blue-soft);
+  --sky-deep: var(--theme-blue);
+  --lime: var(--theme-green);
+  --lime-deep: var(--theme-green-deep);
+  --accent: var(--theme-purple-deep);
+  --accent-dark: var(--theme-purple-dark);
+  --purple: var(--theme-purple-deep);
+  --navy: #5a4d7a;
+  --border: #e5e0f0;
+  --card-bg: var(--app-card);
+  --shadow: rgba(90, 77, 122, 0.1) 0 8px 30px;
+  --shadow-lg: rgba(90, 77, 122, 0.14) 0 20px 50px;
   --navbar-height: 64px;
 
   --sans: 'Nunito', system-ui, 'Segoe UI', Roboto, sans-serif;

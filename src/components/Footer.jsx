@@ -1,11 +1,5 @@
 import AppIcon from './AppIcon'
 
-const TEAM = [
-  'Kahnishga Solaidurairaj',
-  'Nyleah Jones',
-  'Arjun Prabhakaran',
-]
-
 /**
  * Site footer with team credits and navigation links.
  *
@@ -20,20 +14,18 @@ function Footer() {
           <span>Continuum</span>
         </div>
 
-        <p className="footer__tagline">Find your voice through fun!</p>
+        <p className="footer__tagline">Continue speech therapy beyond the clinic!</p>
 
+        {/*
         <nav className="footer__nav" aria-label="Footer navigation">
-          <a href="#problem">The Problem</a>
-          <a href="#mission">Our Mission</a>
           <a href="#features">Features</a>
           <a href="#activities">Activities</a>
-          <a href="#app-preview">App Preview</a>
+          <a href="#problem">The Problem</a>
+          <a href="#mission">Our Mission</a>
           <a href="#launch">Launch</a>
+          <a href="#team">Team</a>
         </nav>
-
-        <p className="footer__team">
-          Built by {TEAM.join(', ')}
-        </p>
+        */}
 
         <p className="footer__copy">
           &copy; {new Date().getFullYear()} Continuum. All rights reserved.

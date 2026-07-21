@@ -6,14 +6,15 @@ const APP_ICON_PATH = '/images/brocaAppIcon.png'
  * Parameters:
  * - className: Optional CSS class for sizing and layout.
  * - size: Pixel width and height for the icon.
+ * - alt: Accessible description; empty for decorative uses.
  *
  * Returns: The app icon image element.
  */
-function AppIcon({ className = '', size = 36 }) {
+function AppIcon({ className = '', size = 36, alt = '' }) {
   return (
     <img
       src={APP_ICON_PATH}
-      alt=""
+      alt={alt}
       className={`app-icon ${className}`.trim()}
       width={size}
       height={size}

@@ -3,13 +3,13 @@ const AUDIENCE = [
     title: 'Primary Users',
     items: ['Parents', 'Caretakers'],
     icon: '👩‍👦',
-    color: 'lavender',
+    color: 'purple',
   },
   {
     title: 'Population Impacted',
     items: ['Children ages 6–10'],
     icon: '👧',
-    color: 'sky',
+    color: 'blue',
   },
   {
     title: 'Our Goal',
@@ -18,7 +18,7 @@ const AUDIENCE = [
       'Keep parents informed and involved',
     ],
     icon: '😊',
-    color: 'lime',
+    color: 'green',
   },
 ]
 
@@ -29,7 +29,7 @@ const AUDIENCE = [
  */
 function WhoWeHelp() {
   return (
-    <section id="who-we-help" className="who section">
+    <section id="who-we-help" className="who section section--purple">
       <div className="section__inner">
         <div className="section__header">
           <p className="eyebrow">Who Are We Helping?</p>

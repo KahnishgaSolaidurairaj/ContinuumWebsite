@@ -1,3 +1,4 @@
+/*
 const IMPACT_GOALS = [
   {
     title: 'Caretakers and or parents in the front row',
@@ -25,6 +26,7 @@ const IMPACT_GOALS = [
       'Replace disappointment with encouragement, momentum, and small daily victories.',
   },
 ]
+*/
 
 /**
  * Mission section describing Continuum's motivation and intended impact.
@@ -33,18 +35,23 @@ const IMPACT_GOALS = [
  */
 function Mission() {
   return (
-    <section id="mission" className="mission section section--cream">
+    <section id="mission" className="mission section section--pink">
       <div className="section__inner">
         <div className="section__header">
           <p className="eyebrow">Our Mission</p>
-          <h2>The change we hope to create</h2>
+          <h2>
+            Help caretakers continue speech therapy at home with fun,
+            organized, trackable practice.
+          </h2>
           <p className="section__subtitle">
-            Continuum relieves stressed parents by continuing your child&apos;s
-            speech therapy at home with fun, organized, trackable practice
-            that fits into everyday life.
+            Continuum was built around how kids actually learn through play.
+            Every listen, trace, watch, and practice activity is shaped as a
+            game so children stay engaged while parents get the structure and
+            data they need.
           </p>
         </div>
 
+        {/*
         <div className="mission__grid">
           {IMPACT_GOALS.map((goal) => (
             <article key={goal.title} className="mission__card">
@@ -53,7 +60,9 @@ function Mission() {
             </article>
           ))}
         </div>
+        */}
 
+        {/*
         <div className="mission__approach">
           <p className="mission__approach-label">How we designed it</p>
           <h3>Games that guide behavior</h3>
@@ -64,6 +73,7 @@ function Mission() {
             data they need.
           </p>
         </div>
+        */}
       </div>
     </section>
   )

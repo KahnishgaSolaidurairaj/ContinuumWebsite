@@ -3,31 +3,27 @@ const ACTIVITIES = [
     name: 'Sandbox',
     tagline: 'Trace over sounds',
     description:
-      'Follow a glowing light along letter shapes to build motor memory for phoneme formation.',
-    icon: '✍️',
-    color: 'lavender',
+      'Follow the letter shapes to build motor memory for phoneme formation.',
+    color: 'pink',
   },
   {
     name: 'Flash',
     tagline: 'Hear how phonemes sound',
     description:
       'Listen to clear audio models of each sound before practicing pronunciation.',
-    icon: '🔊',
-    color: 'sky',
+    color: 'purple',
   },
   {
     name: 'Watch',
     tagline: 'See how someone pronounces it',
-    icon: '▶️',
-    color: 'lime',
+    color: 'green',
   },
   {
     name: 'Test',
     tagline: 'Try it yourself',
     description:
       'Practice pronunciation and receive feedback on how to improve.',
-    icon: '🎤',
-    color: 'navy',
+    color: 'blue',
   },
 ]
 
@@ -40,7 +36,7 @@ const VANESSA_CHANNEL_URL = 'https://www.youtube.com/@SpeakEnglishWithVanessa'
  */
 function Activities() {
   return (
-    <section id="activities" className="activities section">
+    <section id="activities" className="activities section section--green">
       <div className="section__inner">
         <div className="section__header">
           <p className="eyebrow">Practice Activities</p>
@@ -57,9 +53,6 @@ function Activities() {
               key={activity.name}
               className={`activity-card activity-card--${activity.color}`}
             >
-              <span className="activity-card__icon" aria-hidden="true">
-                {activity.icon}
-              </span>
               <div className="activity-card__header">
                 <h3>{activity.name}</h3>
                 <p className="activity-card__tagline">{activity.tagline}</p>
@@ -84,12 +77,6 @@ function Activities() {
               </p>
             </article>
           ))}
-        </div>
-
-        <div className="activities__tech">
-          <div className="tech-badge">
-            <span>Real-time Feedback</span>
-          </div>
         </div>
       </div>
     </section>

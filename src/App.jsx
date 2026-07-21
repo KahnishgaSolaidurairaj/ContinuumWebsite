@@ -1,15 +1,14 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Features from './components/Features'
 import Problem from './components/Problem'
 import Mission from './components/Mission'
 import WhoWeHelp from './components/WhoWeHelp'
-import Features from './components/Features'
 import Activities from './components/Activities'
-import AppDemo from './components/AppDemo'
-import Testimonial from './components/Testimonial'
 import LaunchCTA from './components/LaunchCTA'
-import Footer from './components/Footer'
+import Team from './components/Team'
 import './App.css'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -17,14 +16,13 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <Features />
+        <Activities />
         <Problem />
         <Mission />
         <WhoWeHelp />
-        <Features />
-        <Activities />
-        <AppDemo />
-        <Testimonial />
         <LaunchCTA />
+        <Team />
       </main>
       <Footer />
     </div>

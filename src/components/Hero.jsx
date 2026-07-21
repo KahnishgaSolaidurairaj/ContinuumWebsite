@@ -1,7 +1,5 @@
-import AppScreenshot from './AppScreenshot'
-
 /**
- * Hero section with headline, value proposition, and app preview.
+ * Hero section with headline, value proposition, and Broca companion.
  *
  * Returns: The landing hero section.
  */
@@ -12,9 +10,9 @@ function Hero() {
         <div className="hero__content">
           <p className="eyebrow">Launching soon</p>
           <h1>Continuum</h1>
-          <p className="hero__tagline">Find your voice through fun!</p>
+          <p className="hero__tagline">Continue speech therapy beyond the clinic!</p>
           <p className="hero__description">
-            Continuum relieves stressed parents by continuing your child&apos;s
+            Continuum relieves stressed parents with accesible and easy
             speech therapy at home with fun, organized, trackable practice
             built for caretakers supporting children with dysarthria.
           </p>
@@ -27,8 +25,8 @@ function Hero() {
           </ul>
 
           <div className="hero__actions">
-            <a href="#app-preview" className="btn btn--primary">
-              See the App
+            <a href="#" className="btn btn--primary">
+              Download App
             </a>
             <a href="#features" className="btn btn--secondary">
               Explore Features
@@ -45,13 +43,6 @@ function Hero() {
             />
             <p>Meet Broca! your practice companion</p>
           </div>
-          <AppScreenshot
-            src="/screenshots/home-and-dashboard.png"
-            alt="Continuum home screen with practice suggestions and progress dashboard"
-            label="Home & Dashboard"
-            description="Daily goals, streaks, and parent insights in one place"
-            variant="showcase"
-          />
         </div>
       </div>
     </section>

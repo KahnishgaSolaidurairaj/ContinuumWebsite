@@ -1,3 +1,5 @@
+import AppIcon from './AppIcon'
+
 /**
  * Problem statement section explaining the gap in speech therapy access.
  *
@@ -5,7 +7,7 @@
  */
 function Problem() {
   return (
-    <section id="problem" className="problem section section--sky">
+    <section id="problem" className="problem section section--blue">
       <div className="section__inner problem__grid">
         <div className="problem__text">
           <p className="eyebrow">The Problem</p>
@@ -22,20 +24,12 @@ function Problem() {
           </p>
         </div>
 
-        <div className="problem__illustration" aria-hidden="true">
-          <div className="problem__scene">
-            <div className="problem__bubble problem__bubble--messy" />
-            <div className="problem__person problem__person--therapist">
-              <div className="problem__head" />
-              <div className="problem__body" />
-              <div className="problem__card">E</div>
-            </div>
-            <div className="problem__person problem__person--child">
-              <div className="problem__head" />
-              <div className="problem__body" />
-            </div>
-            <div className="problem__table" />
-          </div>
+        <div className="problem__visual">
+          <AppIcon
+            className="problem__app-icon"
+            size={320}
+            alt="Continuum app icon featuring Broca the bear"
+          />
         </div>
       </div>
     </section>
