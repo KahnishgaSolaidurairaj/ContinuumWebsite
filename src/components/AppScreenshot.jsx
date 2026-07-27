@@ -1,3 +1,6 @@
+const IPAD_FRAME_SRC =
+  '/images/iPad Air 11" (M4) - Space Gray - Portrait.png'
+
 /**
  * Displays an app screenshot or placeholder when no image is available.
  *
@@ -21,7 +24,25 @@ function AppScreenshot({
     <figure className={`app-shot app-shot--${variant}`}>
       <div className="app-shot__media">
         {src ? (
-          <img src={src} alt={alt} className="app-shot__image" loading="lazy" />
+          variant === 'framed' ? (
+            <div className="app-shot__device">
+              <img
+                src={IPAD_FRAME_SRC}
+                alt=""
+                className="app-shot__device-frame"
+                aria-hidden="true"
+                loading="lazy"
+              />
+              <img
+                src={src}
+                alt={alt}
+                className="app-shot__screen"
+                loading="lazy"
+              />
+            </div>
+          ) : (
+            <img src={src} alt={alt} className="app-shot__image" loading="lazy" />
+          )
         ) : (
           <div className="app-shot__placeholder" role="img" aria-label={alt}>
             <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">

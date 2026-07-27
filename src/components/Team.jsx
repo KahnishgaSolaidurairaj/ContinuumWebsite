@@ -10,7 +10,7 @@ const TEAM_MEMBERS = [
     age: '18',
     role: 'Project Manager',
     linkedin: 'https://www.linkedin.com/in/nyleah-jones-a693a6322/',
-    photo: null,
+    photo: '/images/team/Nyleah.png',
     photoAlt: 'Headshot of Nyleah Jones',
     initials: 'NJ',
     color: 'pink',

@@ -11,7 +11,7 @@ const FEATURES = [
     src: `${VERSION_1_SCREENSHOTS}/ParentHomePage.png`,
     alt: 'Parent home screen with mode toggle and quick-start options',
   },
-  {
+  /*{
     title: 'Parent PIN Lock',
     description:
       'Protect parent settings with a 4-digit PIN before handing the device to your child.',
@@ -24,7 +24,7 @@ const FEATURES = [
       'Set a daily practice target from 5 to 30 minutes to build consistent habits.',
     src: `${VERSION_1_SCREENSHOTS}/ParentSetTimeGoal.png`,
     alt: "Today's Goal modal for selecting daily practice minutes",
-  },
+  },*/
   {
     title: 'Manage Priority Sounds',
     description:
@@ -48,26 +48,26 @@ const FEATURES = [
   },
   // Child view
   {
-    title: 'Weekly Streak',
+    title: 'Child Home',
     description:
-      'Encourage consistent daily practice with streak tracking on the home screen.',
+      'Encourage consistent daily practice with streak tracking and motivation',
     src: `${VERSION_1_SCREENSHOTS}/ChildHomePage.png`,
     alt: 'Continuum child home screen showing daily streak, goals, and motivation',
   },
   {
     title: 'Focus Sounds',
     description:
-      'See priority sounds at a glance and tap to jump straight into practice.',
+      'Child view see priority sounds at a glance and tap to jump straight into practice.',
     src: `${VERSION_1_SCREENSHOTS}/ChildPracticeView.png`,
     alt: 'Child practice view showing priority sounds with example words',
   },
-  {
+  /*{
     title: 'Daily Warm Ups',
     description:
       'Gentle breathing exercises and motivation before each practice session.',
     src: `${VERSION_1_SCREENSHOTS}/WarmUp.png`,
     alt: 'Warm up modal with a breathing exercise',
-  },
+  },*/
   // Practice
   {
     title: 'Four Practice Modes',
