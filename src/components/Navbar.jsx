@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import AppIcon from './AppIcon'
+import { APP_STORE_URL } from '../constants/appLinks'
 
 const NAV_COLLAPSE_WIDTH = 1100
 
@@ -77,13 +78,24 @@ function Navbar() {
             </li>
           ))}
         </ul>
-        <a href="#launch" className="navbar__cta navbar__cta--menu" onClick={closeMenu}>
-          Launching soon
+        <a
+          href={APP_STORE_URL}
+          className="navbar__cta navbar__cta--menu"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={closeMenu}
+        >
+          Get the App
         </a>
       </nav>
 
-      <a href="#launch" className="navbar__cta navbar__cta--desktop">
-        Launching soon
+      <a
+        href={APP_STORE_URL}
+        className="navbar__cta navbar__cta--desktop"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Get the App
       </a>
     </header>
   )

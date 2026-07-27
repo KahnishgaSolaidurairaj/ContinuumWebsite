@@ -8,7 +8,7 @@ const TEAM_MEMBERS = [
   {
     name: 'Nyleah Jones',
     age: '18',
-    role: 'User Interface Designer',
+    role: 'Project Manager',
     linkedin: 'https://www.linkedin.com/in/nyleah-jones-a693a6322/',
     photo: null,
     photoAlt: 'Headshot of Nyleah Jones',

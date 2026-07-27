@@ -1,3 +1,5 @@
+import { APP_STORE_URL, APP_VERSION } from '../constants/appLinks'
+
 /**
  * Hero section with headline, value proposition, and Broca companion.
  *
@@ -8,7 +10,7 @@ function Hero() {
     <section id="hero" className="hero section">
       <div className="hero__inner">
         <div className="hero__content">
-          <p className="eyebrow">Launching soon</p>
+          <p className="eyebrow">Version {APP_VERSION}</p>
           <h1>Continuum</h1>
           <p className="hero__tagline">Continue speech therapy beyond the clinic!</p>
           <p className="hero__description">
@@ -25,7 +27,12 @@ function Hero() {
           </ul>
 
           <div className="hero__actions">
-            <a href="#" className="btn btn--primary">
+            <a
+              href={APP_STORE_URL}
+              className="btn btn--primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Download App
             </a>
             <a href="#features" className="btn btn--secondary">

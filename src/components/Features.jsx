@@ -1,61 +1,115 @@
 import AppScreenshot from './AppScreenshot'
 
+const VERSION_1_SCREENSHOTS = '/images/Version 1.0'
+
 const FEATURES = [
+  // Parent
   {
-    title: 'Weekly Streak',
+    title: 'Parent Home',
     description:
-      'Encourage consistent daily practice with streak tracking on the home screen.',
-    src: '/screenshots/Home.png',
-    alt: 'Continuum home screen showing daily practice streak and suggestions',
+      'Switch between parent and child modes from a secure home dashboard.',
+    src: `${VERSION_1_SCREENSHOTS}/ParentHomePage.png`,
+    alt: 'Parent home screen with mode toggle and quick-start options',
   },
   {
-    title: 'Daily Warm Ups',
+    title: 'Parent PIN Lock',
     description:
-      'Gentle breathing exercises and motivation before each practice session.',
-    src: '/screenshots/warm-up.png',
-    alt: 'Warm up modal with a breathing exercise',
+      'Protect parent settings with a 4-digit PIN before handing the device to your child.',
+    src: `${VERSION_1_SCREENSHOTS}/ParentViewPin.png`,
+    alt: 'Parent PIN popup for securing parent-only settings',
   },
   {
-    title: 'Mood Logging',
+    title: 'Daily Time Goals',
     description:
-      'Track emotional state alongside speech progress after each activity.',
-    src: '/screenshots/Dashboard.png',
-    alt: 'Dashboard showing mood logging and weekly activity trends',
+      'Set a daily practice target from 5 to 30 minutes to build consistent habits.',
+    src: `${VERSION_1_SCREENSHOTS}/ParentSetTimeGoal.png`,
+    alt: "Today's Goal modal for selecting daily practice minutes",
   },
   {
-    title: 'Practice Summaries',
+    title: 'Manage Priority Sounds',
     description:
-      'Recaps of each therapy session for quick review by parents and caretakers.',
-    src: '/screenshots/Practice.png',
-    alt: 'Practice screen showing activity options for a selected sound',
+      "Curate which sounds appear on your child's home screen for focused practice.",
+    src: `${VERSION_1_SCREENSHOTS}/ParentManagePrioritySounds.png`,
+    alt: 'Manage priority sounds screen with add and remove options',
   },
   {
-    title: 'Sandbox Tracing',
+    title: 'Sound Library',
     description:
-      'Trace letter shapes in the sand to build motor memory for phoneme formation.',
-    src: '/screenshots/sandbox-trace.png',
-    alt: 'Sandbox tracing activity with letter A',
-  },
-  {
-    title: 'Flash & Sound Practice',
-    description:
-      'Listen to clear audio models and work through flashcard levels for each sound.',
-    src: '/screenshots/PickSounds.png',
-    alt: 'Sound selection screen with vowel and consonant options',
-  },
-  {
-    title: 'Practice & Score',
-    description:
-      'Record pronunciation attempts and get feedback on how to improve.',
-    src: '/screenshots/test-practice.png',
-    alt: 'Test activity screen for recording pronunciation',
+      'Browse vowels, consonants, and vowel teams organized by phoneme category.',
+    src: `${VERSION_1_SCREENSHOTS}/ParentPracticePage.png`,
+    alt: 'Sound library with vowels, consonants, and priority sounds',
   },
   {
     title: 'Progress Dashboard',
     description:
       'A central hub for accuracy trends, strengths, and areas to practice.',
-    src: '/screenshots/Dashboard.png',
+    src: `${VERSION_1_SCREENSHOTS}/ParentDashboard.png`,
     alt: 'Progress dashboard with calendar, streak, and practice stats',
+  },
+  // Child view
+  {
+    title: 'Weekly Streak',
+    description:
+      'Encourage consistent daily practice with streak tracking on the home screen.',
+    src: `${VERSION_1_SCREENSHOTS}/ChildHomePage.png`,
+    alt: 'Continuum child home screen showing daily streak, goals, and motivation',
+  },
+  {
+    title: 'Focus Sounds',
+    description:
+      'See priority sounds at a glance and tap to jump straight into practice.',
+    src: `${VERSION_1_SCREENSHOTS}/ChildPracticeView.png`,
+    alt: 'Child practice view showing priority sounds with example words',
+  },
+  {
+    title: 'Daily Warm Ups',
+    description:
+      'Gentle breathing exercises and motivation before each practice session.',
+    src: `${VERSION_1_SCREENSHOTS}/WarmUp.png`,
+    alt: 'Warm up modal with a breathing exercise',
+  },
+  // Practice
+  {
+    title: 'Four Practice Modes',
+    description:
+      'Choose from Sandbox, Flash, Try, and Test activities for each sound.',
+    src: `${VERSION_1_SCREENSHOTS}/4PracticeTypes.png`,
+    alt: 'Practice screen showing four activity types for a selected sound',
+  },
+  {
+    title: 'Sandbox Tracing',
+    description:
+      'Trace letter shapes in the sand to build motor memory for phoneme formation.',
+    src: `${VERSION_1_SCREENSHOTS}/Sandbox.png`,
+    alt: 'Sandbox tracing activity with letter A',
+  },
+  {
+    title: 'Flash Practice',
+    description:
+      'Listen to clear audio models and work through flashcard levels for each sound.',
+    src: `${VERSION_1_SCREENSHOTS}/Flash.png`,
+    alt: 'Flash activity with sound levels and a highlighted word',
+  },
+  {
+    title: 'Watch & Learn',
+    description:
+      'Watch expert demo videos to see how each sound is formed before practicing.',
+    src: `${VERSION_1_SCREENSHOTS}/Try.png`,
+    alt: 'Try activity showing a pronunciation demo video',
+  },
+  {
+    title: 'Practice & Score',
+    description:
+      'Record pronunciation attempts and get feedback on how to improve.',
+    src: `${VERSION_1_SCREENSHOTS}/Test.png`,
+    alt: 'Test activity screen for recording pronunciation',
+  },
+  {
+    title: 'Mood Logging',
+    description:
+      'Track emotional state alongside speech progress after each activity.',
+    src: `${VERSION_1_SCREENSHOTS}/TrackMoodPopUp.png`,
+    alt: 'Mood tracking popup after completing an activity',
   },
 ]
 
