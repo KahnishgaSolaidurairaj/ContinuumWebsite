@@ -27,7 +27,7 @@ function LaunchCTA() {
             <span className="launch__stat-label">Progress tracking</span>
           </div>
           <div className="launch__stat">
-            <span className="launch__stat-value">6–10</span>
+            <span className="launch__stat-value">4–10</span>
             <span className="launch__stat-label">Ages supported</span>
           </div>
         </div>

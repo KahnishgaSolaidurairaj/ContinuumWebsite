@@ -2,13 +2,11 @@ const AUDIENCE = [
   {
     title: 'Primary Users',
     items: ['Parents', 'Caretakers'],
-    icon: '👩‍👦',
     color: 'purple',
   },
   {
     title: 'Population Impacted',
-    items: ['Children ages 6–10'],
-    icon: '👧',
+    items: ['Children ages 4–10'],
     color: 'blue',
   },
   {
@@ -17,7 +15,6 @@ const AUDIENCE = [
       'Make practice fun, not stressful',
       'Keep parents informed and involved',
     ],
-    icon: '😊',
     color: 'green',
   },
 ]
@@ -44,9 +41,6 @@ function WhoWeHelp() {
         <div className="who__grid">
           {AUDIENCE.map((card) => (
             <article key={card.title} className={`who__card who__card--${card.color}`}>
-              <span className="who__icon" aria-hidden="true">
-                {card.icon}
-              </span>
               <h3>{card.title}</h3>
               <ul>
                 {card.items.map((item) => (
